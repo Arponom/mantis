@@ -1,0 +1,7 @@
+{
+  "web":{
+    "baseUrl":"http://localhost:8443/mantisbt-2.8.0/login_page.php" ,
+    "username":"administrator",
+    "password":"root"
+  }
+  }
