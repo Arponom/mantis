@@ -37,7 +37,7 @@ class aut_helper:
     def get_logged_user(self):
         wd = self.app.wd
         return wd.find_element_by_class_name("user-info").text
-
+#
     def ensure_login(self, login_syss, pass_syss):
         wd = self.app.wd
         if self.is_logged_in():

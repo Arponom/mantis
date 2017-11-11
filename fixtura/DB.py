@@ -1,7 +1,7 @@
 import mysql.connector
 import re
 from model.project import Project
-
+#
 class DbFixture:
     def __init__(self, host = 'localhost', name= 'bugtracker', user= 'root', password= ''):
         self.host = 'localhost'

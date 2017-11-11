@@ -2,7 +2,7 @@ import random
 import string
 from random import choice
 from model.project import Project
-
+#
 def test_delete_project(app,db):
     app.project.open_project_page()
 

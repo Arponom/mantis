@@ -29,7 +29,7 @@ def app(request):
 
     fixture.auth.ensure_login(login_syss=web_config['username'], pass_syss=web_config['password'])
     return fixture
-
+#
 @pytest.fixture(scope='session')
 def db(request):
     #db_config = load_config(request.config.getoption("--target"))['db']
